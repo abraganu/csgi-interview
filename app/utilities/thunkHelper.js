@@ -1,4 +1,3 @@
-
 export default function thunkHelper(dispatch, types, config) {
     const $http = getService('$http');
     const $q = getService('$q');
